@@ -17,7 +17,7 @@ module.exports = withMT({
         turtiary:'#F56E24',
       },
       screens: {
-        xs: '360px',
+        xs: '380px',
       },
     },
   },

@@ -64,7 +64,7 @@ function Scrollbar ({headding,items}){
 
 function Offers (){
     return(
-        <div className="h-[50%] overflow-auto pb-8 sm:pb-4">
+        <div className="h-[60%] overflow-auto pb-24">
             <Scrollbar headding='Free Premium Subscriptions' items={subscriptionsItems}></Scrollbar>
             <Scrollbar headding='Offers on Brand Gift Cards' items={offersItems}></Scrollbar>
             <Scrollbar headding='Deals & Discount Coupons for Top Brands' items={DiscountItems}></Scrollbar>
