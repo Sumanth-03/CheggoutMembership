@@ -1,0 +1,25 @@
+import React from "react";
+import Offers from "./Offers"; 
+import { ArrowLeftIcon } from '@heroicons/react/24/solid';
+import Logo from '../Assets/logo.svg'
+import { Link } from "react-router-dom";
+
+function Home (){
+    return(
+    <main className="bg-primary p-2 w-full sm:w-[480px] m-auto h-full sm:shadow-lg sm:rounded-2xl">
+        <ArrowLeftIcon className="h-7 w-7 m-3 bg-gray-700 rounded-full text-white p-1" />
+        <header className="text-center p-5">
+            <img src={Logo} alt="Logo" className="m-auto"></img>
+            <h1 className="text-secondary text-xl font-bold">Cheggout Membership</h1>
+            <p className="text-white font-semibold">An Exclusive Membership with benefits upto</p>
+            <span className="text-secondary text-2xl font-bold">₹75,000</span>
+        </header>
+        <Offers></Offers>
+        <div className="p-2 mb-2 text-center fixed bottom-0 left-0 right-0 flex justify-center items-center h-20">
+        <Link to='/order-summary' className="bg-turtiary w-full p-2 rounded-xl text-white max-w-[440px] text-lg font-semibold">Join Membership</Link>
+        </div>
+        
+    </main>
+    )
+}
+export default Home
