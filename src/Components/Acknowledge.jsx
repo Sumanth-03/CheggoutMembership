@@ -25,8 +25,7 @@ function Acknowledge() {
             </div>
           </div>
         </div>
-      </div>
-      <div className="-mx-2 p-2 mb-0 text-center fixed bottom-0 m-auto flex justify-center items-center h-20 bg-primary w-full sm:w-[480px] rounded-b-2xl">
+        <div className="-mx-2 p-2 mb-0 text-center  m-auto flex justify-center items-center h-20 bg-primary w-full sm:w-[480px] rounded-b-2xl">
         <Link
           to="/"
           className="bg-turtiary w-full p-2 rounded-xl text-white max-w-[440px] text-lg font-semibold"
@@ -34,6 +33,8 @@ function Acknowledge() {
           Go to home
         </Link>
       </div>
+      </div>
+      
     </main>
   );
 }
