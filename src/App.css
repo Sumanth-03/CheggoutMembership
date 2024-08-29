@@ -47,15 +47,15 @@
   cursor: pointer;
 }
 .custom-radio:checked {
-  border-color: #9C1D26; 
+  border-color: #9c1d26;
 }
 .custom-radio:checked::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 25%;
   left: 25%;
   width: 50%;
   height: 50%;
-  background-color: #9C1D26;
+  background-color: #9c1d26;
   border-radius: 50%;
 }
